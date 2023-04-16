@@ -4,7 +4,7 @@ pipeline {
     stages {
       
        stage("build"){
-         step {
+         steps{
            pyhton3 app.py
             
           }
