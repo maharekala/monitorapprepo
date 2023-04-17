@@ -5,7 +5,7 @@ pipeline {
       
        stage("build"){
          steps{
-           pyhton3 app.py
+           docker build .
             
           }
        }
