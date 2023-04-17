@@ -13,7 +13,7 @@ pipeline {
       stage ('Build') {
         steps {
             script {
-            app = docker.build(".")
+            app = docker.build("flaskapp")
           } 
         }
       }
